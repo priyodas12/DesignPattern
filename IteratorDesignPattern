@@ -1,0 +1,11 @@
+comes under Behavioral design pattern
+ex:Scanner,Iterator
+
+Iterator allows a way to access elements/children of an aggregate object in a sequence while hiding actual internal data structure.
+
+aggregate object->any child class object of collection.
+
+In java Iterator(I) are integral part of collection framework and they are implementations of this design pattern.
+
+Iterators are stateful,meaning an iterator object remembers its position while iterator.
+

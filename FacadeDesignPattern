@@ -1,0 +1,11 @@
+
+Comes under facade design pattern.Facade means Front age.
+
+Provide a unified interface to a set of interfaces
+in a subsystem.Facade defines a higher-level interface that makes a subsystem easier to use.
+
+Example:mailing system,spring JPA interface,CURDRepository Interface.
+
+advantage:
+1.hiding the complexcity from client,about inter subsystem communication.
+2.achieving loose coupling.
