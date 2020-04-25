@@ -1,16 +1,16 @@
 package design;
 
-public class SingletonPattern {
+public class EagerSingletonPattern {
 	
 	private int id;
 	
-	private  static SingletonPattern soleInstance=new SingletonPattern();
+	private  static EagerSingletonPattern soleInstance=new EagerSingletonPattern();
 	
-	private SingletonPattern() {
+	private EagerSingletonPattern() {
 		System.out.println("Creating sole instance");
 	}
 	
-	public static SingletonPattern getInstance() {
+	public static EagerSingletonPattern getInstance() {
 		return soleInstance;
 	}
 
@@ -30,7 +30,7 @@ public class SingletonPattern {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		SingletonPattern other = (SingletonPattern) obj;
+		EagerSingletonPattern other = (EagerSingletonPattern) obj;
 		if (id != other.id)
 			return false;
 		return true;
