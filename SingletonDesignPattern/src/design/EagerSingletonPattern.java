@@ -1,5 +1,6 @@
 package design;
-
+//as soon as class loaded this class instance will be created
+//Runtime class is example of singleton pattern
 public class EagerSingletonPattern {
 	
 	private int id;

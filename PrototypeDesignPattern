@@ -1,0 +1,11 @@
+Prototype Design Pattern:
+
+Whenever we are creating costly object that means to create this object we have to
+we external resource or may be an internal big calculation procedure to create this objcet
+for that we will use the existing instance as a prototype to make copy.
+
+in java we can implement this by objecct class clone method.
+
+1.class must implement Clonable(I) marker interface.
+2.class must override clone()
+3.class must support CloneNotSupportedException in to avoid exceptional use case.

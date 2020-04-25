@@ -1,5 +1,5 @@
 package design;
-
+//on demand instance will be created.
 public class LazySingletonPattern {
 	
 	//static-its class property,volatile-can't be cached
